@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('card_game.txt')
 
 round = int(input())
 for r in range(round): # 2명이 게임하므로 1라운드당 2배씩
